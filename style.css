@@ -1,0 +1,58 @@
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: black
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-image {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+.URL-input {
+  border-radius: 4px 4px 4px 4px;
+  padding: 5px 10px;
+  width: 100%;
+  max-width: 300px;
+  text-align: left;
+  border: 2px solid #ffff92;
+  background: #ffff92;
+  outline: none;
+  margin-bottom: 10px;
+
+}
+
+.URL-input:focus {
+border: 2px solid #FFFF00;
+}
+
+.convert-button {
+padding: 5px 10px;
+width: 100%;
+max-width: 300px;
+}
+
+.convert-button {
+border-radius: 4px 4px 4px 4px;
+border: 2px solid #FFFF00;
+background: #FFFF00;
+color: black;
+cursor: pointer;
+}
